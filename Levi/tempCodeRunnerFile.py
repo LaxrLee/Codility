@@ -1,2 +1,2 @@
 
-print(friends[1:])
+guess_limit = 3

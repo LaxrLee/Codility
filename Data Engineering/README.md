@@ -72,4 +72,5 @@ Task tracker takes care of all the tasks for the third master node/name node(Job
 
 Datanode is the daemon that will take care of all in terms of storage, reading and writing the data
 
-Data recovery must happen before starting to process your data. i.e if one data node with one block is missiog, no way you can process the complete file. Have a back up  
+Data recovery must happen before starting to process your data. i.e if one data node with one block is missiog, no way you can process the complete file. Have a back up. 
+The blocks and their backups(copies) are in the different datanodes.  

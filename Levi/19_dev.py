@@ -1,20 +1,19 @@
-# guessing gme
+# for loops
+# the variable represents a different value everytime we go through that for loop
 
-secret_word = "dev"
-guess = ""
-guess_count = 0
-guess_limt = 3
-out_of_guesses = False
+# for letter in "Data Engineer":
+#     print(letter)
 
+# creating an array
+# friends = ["Jim", "Karen", "Creed"]
+# for name in friends:
+#     print(name)
 
-while guess != secret_word and not(out_of_guesses):
-    if guess_count < guess_limt:
-        guess = input("Guess a word: ")
-        guess_count += 1
-    else:
-        out_of_guesses = True
+# index 
+# for index in range(3, 10):
+#     print(index)
 
-if out_of_guesses:
-    print("You are out of guesses")
-else:
-    print("You guessed correctly")
+friends = ["Jim", "Karen", "Kevin"]
+
+for index in range(len(friends)):
+    print (friends[index])

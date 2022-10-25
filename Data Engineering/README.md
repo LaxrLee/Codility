@@ -45,6 +45,8 @@ For 5 machines,
 How many blocks ??
 1 * 1024 * 1024 /64 = 16,384 blocks 
 
+Namenode/master - is responsible for managing the metadata, managing all the extra clients in terms of writing the data into the hadoop cluster, in terms of reading the data out of the hadoop cluster.
+
 
 SLAVE/WORKER/DATA NODE
 
@@ -54,3 +56,12 @@ A user want to request temp.txt, User does it through the master node, which con
 Metadata - information about the data which includes; Filename, filesizem blocksize #blocks blockslocation, user, usergroup, date, permission etc.
                                                       Temp.txt  100 mb    64 mb      2      b1=dn1,b2=dn500, xyz, supergroup, 0824, rwx-----
 Master node will send request to datanode 1 and 500 instead of scanning each machine and causing an overload.
+
+The nodes must always be active and responsive when requests are made. And at all other times
+Daemon - process/program that will always be running in the background
+There are 5 hadoop daemons. One i Name/master node
+In eah machine you will run the daemon,
+
+Evry one hour you are copying meta data, more like a backup - to recover. on the second master computer - this is configurable. (secondary /masternamenode machine)
+
+

@@ -64,4 +64,12 @@ In eah machine you will run the daemon,
 
 Evry one hour you are copying meta data, more like a backup - to recover. on the second master computer - this is configurable. (secondary /masternamenode machine)
 
+There is a third namenode/ called job tracker to deal with all mapreduce requests -> job tracker/resource manager
+If I want to know the block, job tracker sends request to namenode(original) which then scans the metadata to check how many blocks are there and report to the jobtracker
 
+Task tracker is the running program in the machines, like daemon. Rubns the logic and reports to the job tracker
+Task tracker takes care of all the tasks for the third master node/name node(JobTracker machine). It runs in all the slave machines(data node level)
+
+Datanode is the daemon that will take care of all in terms of storage, reading and writing the data
+
+Data recovery must happen before starting to process your data. i.e if one data node with one block is missiog, no way you can process the complete file. Have a back up  

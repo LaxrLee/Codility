@@ -61,5 +61,44 @@ These insights help businesses make informed decisions about business needs.
 Data scientists design and create new processes for data modeling. They use algorithms, predictive analytics, and statistical analysis. 
 Data scientists have technical skills to arrange unstructured data and build their own methodologies to make predictions based on data trends.
 
+Methodology - A framework in which scientists work withibn
+The three industry methodologies in data science:
+    -> Cross-Industry Standard Process for Data Mining (CRISP-DM)
+    -> Knowledge Discovery in Database
+    -> Sample, Explore, Modify, Model, Assess (SEMMA)
 
-Hadoop enables lateral scaling
+CRISP-DM consists of six phases with arrows indicating the most important and frequent dependencies between phases:
+        Business understanding
+        Data understanding
+        Data preparation
+        Modeling
+        Evaluation
+        Deployment
+
+KDD represents the overall process of collecting data and methodically refining it. KDD typically has five steps:
+        Selection
+        Preprocessing
+        Transformation
+        Data Mining
+        Interpretation/Evaluation
+
+SEMMA stands for its five steps:
+        Sample
+        Explore
+        Modify
+        Model
+        Assess
+
+Steps in data science methodology
+        -> Business understanding
+        -> Data exploration and preparation
+        -> Data representation and transformation
+        -> Data visualization and presentation
+        -> Train data models
+        -> Deploy data models
+
+
+
+What is a model? A data model identifies the data, data attributes, and relationships or associations with other data. A data model provides a generalized view of data that represents the real business scenario and data. 
+
+Why build a model? A data scientist can develop a more systematic approach to address an identified business problem by building a model. The main goal of building a model is to make better predictions for the business and gain a better understanding of the system being modeled.

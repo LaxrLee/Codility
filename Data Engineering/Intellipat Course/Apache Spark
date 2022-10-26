@@ -44,3 +44,19 @@ libraries  ----->      [SPARK_SQL]    [MLIIb]   [GRAPHX]  [STREAMING]
 engine -------------------->           [SPARK_CORE]
 cluster management ---> [HADOOP_YARN]    [APACHE_MESOS]    [SPARK_SCHEDULER]
 storage ----->      [HDFS]    [STANDLONE_NODE]   [CLOUD]   [RDBMS/NOSQL] 
+
+
+[SPARK_SQL]
+Provides unified data access
+APIs from python, java and scala
+has a server mode
+it is also scalable 
+advantages:
+    faster execution
+    no migration hurdles
+    real time querying
+SPARK SQL Architecture: 
+                        [DataFrameAPI] [SparkSQL_and_HQL]
+                                [DataFrameAPI]
+                                [DataSourceAPI]
+                           (CSV)       (JSON)      (JDBS)

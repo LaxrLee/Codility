@@ -13,7 +13,14 @@
 # for index in range(3, 10):
 #     print(index)
 
-friends = ["Jim", "Karen", "Kevin"]
+# friends = ["Jim", "Karen", "Kevin"]
 
-for index in range(len(friends)):
-    print (friends[index])
+# for index in range(len(friends)):
+#     print (friends[index])
+
+
+
+friends = ["kjhdsf", "kjfbew", "safdkehwiuof"]
+
+for i in friends:
+    print(i)

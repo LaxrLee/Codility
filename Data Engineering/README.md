@@ -74,3 +74,8 @@ Datanode is the daemon that will take care of all in terms of storage, reading a
 
 Data recovery must happen before starting to process your data. i.e if one data node with one block is missiog, no way you can process the complete file. Have a back up. 
 The blocks and their backups(copies) are in the different datanodes.  
+This is called Replication Factor (R.F) default - 3, min - 1, max - anything
+Every daanode repors back to the namenode/masternode every three secionds to confirm active/online status, this is configurable.
+
+In the case of all datanodes arew working well, and the maste/name node needs to pick a block ftom one of them(those that are copies) it picks the one with more bandwidth
+Datanode metadata(not at the cluster level but at the data level) - checks data integrity and whether data is not corrupted

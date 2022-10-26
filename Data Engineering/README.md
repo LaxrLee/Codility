@@ -1,81 +1,17 @@
-Hadoop - Enables lateral scaling
-Building systems that can withstand future of huge data influx
-
-Legacy way of managing - limited to the exact data
-
-Hadoop will divide data and distribute it.
-Multiple machines - hadoop distributed file system(HDFS) - handles the storage issue
-
-Master computer and slave computers
-
-A company like yahoo has over 45000 machines in their hadoop cluster, trying to scan will cause overloads
-At the time of storage, just as a project manager maintains a log, the master comp will maintain the log of metadata 
-Metadata is data of your data information of your data. 
-In scanning only the metadata will be scanned ands the logic will be sent to where the actual data exists.
-Master computer consolidates the results and sends the report back to the client.
-MapReduce - a programming modell, a technique usiing which you can address the processing related issues. 
-
-Storage issues - Hdfs
-Mapping issues - MapReduce - python or java need to be used to map reduce
-
-
-Eco-systems
-Pig - Scripting language - alternartive to map reduce if you don't know core java or puython for map reduce
-Hive - same as SQ
-Hbase - no SQL - in big data it is difficult to maintain row and column oriented data, hence noSql is used
-Sqoop - import the data from RDBMS DBs to hadoop
-Flume - Import the streaming data rom large log files into Hadoop
-Oozie - Scheduler - to run your jobs in a particular pattern, as you will ru multiple jobs to maintain your data
-
-
-
-
-
-
-
-(HDFS) - higlevel cluster
-
-MASTER NODE - managers all the data. e.g you have temp.txt file, it will bediivided into chunks, who decides that? division is at file level. User can decide how they can divide the data. There is also a default division based on the hadoop version. You need to have a paramerter to divide, the parameter is called BlockSize.
-Block size is a parameter, argument, using which we are going to divide the whole file into chunks of files.
-default blocksiez is 64 mb in Hadoop 1.x, and 128mb in Hadoop 2.x
-Block size is configurable, minimum BS is 1mb, max can be aything. As per recommendations you should not go beyond 256 mb.
-
-For 5 machines, 
-1TB and B.S - 64 mb
-How many blocks ??
-1 * 1024 * 1024 /64 = 16,384 blocks 
-
-Namenode/master - is responsible for managing the metadata, managing all the extra clients in terms of writing the data into the hadoop cluster, in terms of reading the data out of the hadoop cluster.
-
-
-SLAVE/WORKER/DATA NODE
-
-
-
-A user want to request temp.txt, User does it through the master node, which contains the metadata
-Metadata - information about the data which includes; Filename, filesizem blocksize #blocks blockslocation, user, usergroup, date, permission etc.
-                                                      Temp.txt  100 mb    64 mb      2      b1=dn1,b2=dn500, xyz, supergroup, 0824, rwx-----
-Master node will send request to datanode 1 and 500 instead of scanning each machine and causing an overload.
-
-The nodes must always be active and responsive when requests are made. And at all other times
-Daemon - process/program that will always be running in the background
-There are 5 hadoop daemons. One i Name/master node
-In eah machine you will run the daemon,
-
-Evry one hour you are copying meta data, more like a backup - to recover. on the second master computer - this is configurable. (secondary /masternamenode machine)
-
-There is a third namenode/ called job tracker to deal with all mapreduce requests -> job tracker/resource manager
-If I want to know the block, job tracker sends request to namenode(original) which then scans the metadata to check how many blocks are there and report to the jobtracker
-
-Task tracker is the running program in the machines, like daemon. Rubns the logic and reports to the job tracker
-Task tracker takes care of all the tasks for the third master node/name node(JobTracker machine). It runs in all the slave machines(data node level)
-
-Datanode is the daemon that will take care of all in terms of storage, reading and writing the data
-
-Data recovery must happen before starting to process your data. i.e if one data node with one block is missiog, no way you can process the complete file. Have a back up. 
-The blocks and their backups(copies) are in the different datanodes.  
-This is called Replication Factor (R.F) default - 3, min - 1, max - anything
-Every daanode repors back to the namenode/masternode every three secionds to confirm active/online status, this is configurable.
-
-In the case of all datanodes arew working well, and the maste/name node needs to pick a block ftom one of them(those that are copies) it picks the one with more bandwidth
-Datanode metadata(not at the cluster level but at the data level) - checks data integrity and whether data is not corrupted
+• Bachelor’s degree in Computer Science, Statistics, Informatics, Information Systems or another quantitative field.
+• Minimum two years’ experience in a data engineer role or similar.
+• Experience with cloud data warehousing like snowflake.
+• Advanced working SQL knowledge and experience working with relational databases, SQL as well as working familiarity with a variety of databases.
+• Experience building and optimizing ‘big data’ data pipelines, architectures and data sets: i.e. Hadoop, Spark, Kafka, etc.
+• Experience with relational SQL and NoSQL databases, including Postgres.
+• Experience with data pipeline and workflow management tools: i.e. Azkaban, Luigi, Airflow, etc.
+• Experience with object-oriented/object function scripting languages: i.e. Python, Java, etc.
+• Strong analytic skills related to working with unstructured datasets.
+• Strong project management and organizational skills.
+• Experience supporting and working with cross-functional teams in a dynamic environment.
+• High-level interpersonal and cross-cultural skills.
+• Must be a self-starter and highly organized.
+• Analytical, creative thinking and problem solving skills.
+• Flexibility and adaptability.
+• Open to change.
+• Calm under chaos.

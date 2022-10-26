@@ -30,3 +30,10 @@ Spark cluster manager types: Spark standalone cluster
                              Apache Mesos
                              Hadoop Yarn
                              Kurbenetes
+Spark Shell - Scala
+PySpark - Python
+SparkR - R
+
+RDDs - It is the fundamental data structure of Apache Spark.
+In memory data sharing is much faster that disk or network
+Resilient distributed dataset - it is fault tolerance, as it can recompute damaged partitions and node failures.

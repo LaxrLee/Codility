@@ -1,0 +1,32 @@
+What is Apache Spark?
+
+Writes an interface for programming multiple clusters with implicit data palrallelism and fault tolerance.
+
+It provides real time computation and low latency because of in-memory computaion.
+The in-memory cluster computation enables Spark to run iterative algorithms, as programs can checkpoint data and refer back to it without reloading it from disk; in addition it supports interactive querying and streaming data analysis at extremely fast speeds.
+
+This makes it much faster in large scale applications.
+It is Polyglot - meaning you can write applications in multiple languages such as java, scala, python , r and sql
+Has multiple deployment nodes.
+
+Spark Industry - Healthcare, media, finaince, ecommerce and travel etc
+
+Spark + Hadoop:
+Faster Analytics, Optimized costs, avoiding duplication. - organization in cloud help in all this
+
+Scala 
+Provides scalability ibn JVm
+Higher performance
+Excellent built-in concurrency support and libraries
+Extremely fast and efficient
+
+Architechture
+
+                                                                    ----->  Worker/slave Node(Executor, Cache [task, task])
+spark context (Driver Program)    -------------------> CLuster Manager  -----------
+                                                                    ----->  Worker/slave Node(Executor, Cache [task, task])
+
+Spark cluster manager types: Spark standalone cluster
+                             Apache Mesos
+                             Hadoop Yarn
+                             Kurbenetes

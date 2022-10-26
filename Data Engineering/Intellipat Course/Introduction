@@ -79,3 +79,10 @@ Every daanode repors back to the namenode/masternode every three secionds to con
 
 In the case of all datanodes arew working well, and the maste/name node needs to pick a block ftom one of them(those that are copies) it picks the one with more bandwidth
 Datanode metadata(not at the cluster level but at the data level) - checks data integrity and whether data is not corrupted
+
+
+
+Main difference between HADOOP AND SPARK
+Data processing using map reduce - haddop uses batch. processes the data stored over a period of time which causes a timelag
+
+Data processin gin spark is teal time - no timelag

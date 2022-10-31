@@ -55,11 +55,14 @@ ETL -> Extract, Transform and Load
 Data Science - It is the understanding of the world through scientific analysis of digital data.
 The goal is to extract value from data in all its forms
 
+
 Data analysts collect and examine large data sets to identify trends, forecasts, and data visualizations to tell a compelling story through actionable insights. 
 These insights help businesses make informed decisions about business needs.
 
+
 Data scientists design and create new processes for data modeling. They use algorithms, predictive analytics, and statistical analysis. 
 Data scientists have technical skills to arrange unstructured data and build their own methodologies to make predictions based on data trends.
+
 
 Methodology - A framework in which scientists work withibn
 The three industry methodologies in data science:

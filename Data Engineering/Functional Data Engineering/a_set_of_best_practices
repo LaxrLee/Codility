@@ -1,0 +1,12 @@
+Functional Data Engineering.
+A set of best practices.
+
+Apacheflow - it is a work flow engine that helps you author, schedule and monitor your data pipelines
+Inspired by facebooks data swarm. 
+
+functional programming - based on object oriented programming. A subset of it.
+In functional code, the output value of the function depends only on the arguments that are passed to the functions so 
+calling the funciton twice with the same input will result in the same output.
+
+Pure functions - in programming they are functions limited to their own scope. This brings clarity to the process. 
+Knowing this

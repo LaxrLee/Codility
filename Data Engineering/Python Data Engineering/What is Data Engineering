@@ -1,2 +1,13 @@
 Building Data Pipelines - Extract, Transform, and Load
 
+At the lowest level data engineers involves the movement of data from one system or 
+format to another system or format.
+
+When dealing with multiple databases, with different geographicaal locations - e,g retailers with 
+different databases in different continents. 
+
+How would you create connections to all of the transactional databases for each region, extract the data, and load it into a data warehouse. From there you can now count the item you want to know.
+    We can find out which locations sell the most?
+    Peak time for selling?
+    How many users put the items in carts and remove them later?
+    Combinations of items sold together?

@@ -16,3 +16,11 @@ It's more than just extracting data and loading it into a single system.
 We need to account for a bunch of things, such as timezones, we would need to transform the time fields to a standard.
 We will also need to distinguish sales in each region. This could be accomplished by adding a new comlumn for location. Field should be spatial - in cordinates or as well-known text - or will just be text that could be transformed in a data engineering pipeline?
 
+extract - transform - set the daata standards, for time, the international organization for standardization ISO 8601.
+        Extract the data from each database
+        add field to tag the location for each transaction in the data
+        transfirm the date from local time to ISO 8601
+        load the data into the data waregouse
+
+This is accomplished by the creation of the data pipeline.
+[source_data] --> [Extract] --> [Add_Location] --> [Transform_date] --> [Load] --> [Cleann_data]

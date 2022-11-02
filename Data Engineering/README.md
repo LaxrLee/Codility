@@ -28,7 +28,7 @@ Taking it from point A to B ---> Data cleansing
                                  Data Governance
                                  Data Enrichment
                                  Data Processing   
-Data p[roducer - - - - - -  - Data Consumer
+Data producer - - - - - -  - Data Consumer
 
 Why you need it? based on your requirements. For everything you need good quality data
 So is it for: Data science, machine learning, business analytrics, reporting

@@ -11,3 +11,8 @@ How would you create connections to all of the transactional databases for each 
     Peak time for selling?
     How many users put the items in carts and remove them later?
     Combinations of items sold together?
+
+It's more than just extracting data and loading it into a single system. 
+We need to account for a bunch of things, such as timezones, we would need to transform the time fields to a standard.
+We will also need to distinguish sales in each region. This could be accomplished by adding a new comlumn for location. Field should be spatial - in cordinates or as well-known text - or will just be text that could be transformed in a data engineering pipeline?
+

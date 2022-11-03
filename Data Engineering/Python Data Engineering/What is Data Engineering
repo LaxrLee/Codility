@@ -52,3 +52,5 @@ Others are Apache Storm, Apache Flink and Samza.
 
 
 Data pipelines
+Combining a transactional db, a programming language, a processing engine, and a data warehouse results in a pipeline. E.g, if you select  all the records of widget sales from the db, run it through Spark to reduce the data to widgets abd counts, then dump the result to the data warehouse, you have a pipeline. 
+Pipelines need schedulers tpo avoid manual execution every time. To achieve this, the simplest way is to use contrab. Schedule a cron job for your python file and sit back and watch it run ever X number of hours.

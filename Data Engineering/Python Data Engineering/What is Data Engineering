@@ -46,4 +46,9 @@ It uses DSL(Domain-Specific Language). Not SQL, but rather JSON queryt. It store
 
 Data Processing Engines
 Engines allows us to transform data whether it is in batches or streams. Apache Spark is the most popular.
-Spark has Resilient Distributed Datasets(RDDs). RDDs are an immutable and distributed collection of objects.
+Spark has Resilient Distributed Datasets(RDDs). RDDs are an immutable and distributed collection of objects. Are created mainly by loading in an external data source.
+RDDs allow fast and didstributed processing. The tasks in an RDD are run on different nodes within the cluster. Unlike DataFrames, they do not try to guess the schema in your data.
+Others are Apache Storm, Apache Flink and Samza.
+
+
+Data pipelines

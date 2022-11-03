@@ -26,3 +26,12 @@ This is accomplished by the creation of the data pipeline.
 [source_data] --> [Extract] --> [Add_Location] --> [Transform_date] --> [Load] --> [Cleann_data]
 
 Tools:
+    Volume
+    Variety
+    Velocity
+    Value
+    Veracity
+
+Dbs - Proprietary softwater - Oracle or Microsoft SQL Server
+    - OpenSource software - MySQL or PostgreSQL
+    

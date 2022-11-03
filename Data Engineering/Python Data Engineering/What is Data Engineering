@@ -36,4 +36,14 @@ Dbs - Proprietary softwater - Oracle or Microsoft SQL Server
     - OpenSource software - MySQL or PostgreSQL
 
 Common Dbs used in data warehousing are Amazon Redshift, Google BigQuery, Apache Cassandra, and other NoSQL dbs, such as Elasticsearch.
-They deviate from traditional rows of relational databases and store data in a columnar format,
+They deviate from traditional rows of relational databases and store data in a columnar format, 
+
+Columnar dbs are better suited fir fast queries - making them well suited for data warehouses.
+In contrast to columnar dbs, there are document or NoSQL dbs such as elasticsearch which is actually a search engine based on Apache Lucene/  Which is similar to Apache Solr.
+Elasticsearch is open soource but does have propreitary components, like X-Pack plugins for machine learning, graphs, security, alert/monitring.
+It uses DSL(Domain-Specific Language). Not SQL, but rather JSON queryt. It stores data as documents, and while it has parent-child documents, it is non-relational(like columbnar db).
+
+
+Data Processing Engines
+Engines allows us to transform data whether it is in batches or streams. Apache Spark is the most popular.
+Spark has Resilient Distributed Datasets(RDDs). RDDs are an immutable and distributed collection of objects.

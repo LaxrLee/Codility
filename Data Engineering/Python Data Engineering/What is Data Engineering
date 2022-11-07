@@ -31,10 +31,11 @@ Tools:
     Velocity
     Value
     Veracity
-    
+
 
 Dbs - Proprietary softwater - Oracle or Microsoft SQL Server
     - OpenSource software - MySQL or PostgreSQL
+    
 
 Common Dbs used in data warehousing are Amazon Redshift, Google BigQuery, Apache Cassandra, and other NoSQL dbs, such as Elasticsearch.
 They deviate from traditional rows of relational databases and store data in a columnar format, 

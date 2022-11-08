@@ -22,7 +22,7 @@ extract - transform - set the daata standards, for time, the international organ
         Extract the data from each database
         add field to tag the location for each transaction in the data
         transfirm the date from local time to ISO 8601
-        load the data into the data waregouse
+        load the data into the data warehouse.
 
 
 This is accomplished by the creation of the data pipeline.
@@ -39,7 +39,6 @@ Tools:
 Dbs - Proprietary softwater - Oracle or Microsoft SQL Server
     - OpenSource software - MySQL or PostgreSQL
 
-
 Common Dbs used in data warehousing are Amazon Redshift, Google BigQuery, Apache Cassandra, and other NoSQL dbs, such as Elasticsearch.
 They deviate from traditional rows of relational databases and store data in a columnar format, 
 
@@ -55,7 +54,6 @@ Engines allows us to transform data whether it is in batches or streams. Apache 
 Spark has Resilient Distributed Datasets(RDDs). RDDs are an immutable and distributed collection of objects. Are created mainly by loading in an external data source.
 RDDs allow fast and didstributed processing. The tasks in an RDD are run on different nodes within the cluster. Unlike DataFrames, they do not try to guess the schema in your data.
 Others are Apache Storm, Apache Flink and Samza.
-
 
 
 Data pipelines

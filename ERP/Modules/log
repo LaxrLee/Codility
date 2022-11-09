@@ -12,7 +12,7 @@ Financial planning and analysis employees need to prepare key reportsm including
 
 
 [PROCUREMENT]
-Also known as purchasing module
+Also known as purchasing module.
 Helps organisations secure the materials or products it needs to manufacture and/or sell goods. Companies keep a list of approved vendors in this module and tie those suppliers to certain items, helping with supplier relationship management
 This process can automate request for a quote, then track and analyze the quotes that come in.
 
@@ -23,4 +23,51 @@ Production or manufacturing execution systems. The manufacturing module helps ma
 During the manufacturing process, it can update the status of goods-in-progress and help companies track actual output against forecasted production. It also provides a real-time picture of the shop floor, capturing information on items in progress and finished goods. It can calculate the average time to produce an item and then compare supply with forcasted demand to plan adequate production
 
 [INVENTORY_MANAGEMENT]
-Enables inventory control by tracking item quantities and location fdown to individual SKUs[stock_keeping_units]
+Enables inventory control by tracking item quantities and location fdown to individual SKUs[stock_keeping_units].
+This module provides a clear picture of not only current but also incoming inventory, through an integration with the procurement tool.
+This helps businesses manage inventory costs, making sure they have sufficient stock without tying up too much cash in inventory.
+It weighs sales trends against available product to help companies make informed decisions that boot margins and increase inventory turn (a measure of how inventory is sold over a certain period)
+Can handle purchase orders, sales order and shipping
+
+[ORDER_MANAGEMENT]
+Tracks orders from receipt to delivery. Feeds all orders to the warehouse, distribution center or retail store after customers place them and tracks their status as they're prepared, fulfilled and shipped to the customer.
+This prevents orders from being lost ad boots on-time delivery rates to keep customers happy and cut unnecessary expenses for expedited shipping.
+
+[WAREHOUSE_MANAGEMENT]
+This application can effectively guide warehouse employees through all warehouse processes based on the layout of the facility, from putaway when shipments arrive to picking to packing and shipping.
+Can help companies plan labor based on expected order volume. 
+Warehouse module can support different picking strategies like batch picking, wave picking and zone picking, some modules can show employees the most efficient path.
+
+[SUPPLY_CHAIN_MANAGEMENT]
+This module tracks each step in the movement of supplies and goods throughout the supply chain, from sub-suppliers to suppliers to manufacturers to distributors to retail or consumers. It can also manage any materials or products returned for refund or replacement.
+This module can include a wide array of modules like procurement, inventory management, manufacturing, order management and warehouse management. However, it may have functionality beyond the core capabilitis of those modules.
+
+[CUSTOMER_RELATIONSHIP_MANAGEMENT]
+This module stores all customer and prospect information. That includes the company's communication history with a person - the date and time of calls and emails, for example-and their purchase history. 
+A CRM improves customer service because staffers can easily access all the information they need when working with a customer.
+Can also be used to manage sales leads and opportunities. It can track communication with prospects and suggest which customers should be targeted first.
+Most CRM modules enable customer segmentation(enableing more targeted marketing) and advanced contact managers and reporting tools.
+
+[PROFESSIONAL_SERVICES_AUTOMATION(Service_Resource_Management)]
+This module allows an organizaiton to plan and manage projects. Services-based businesses often use this module. 
+The application tracks the status of projects, managing human and capital resources throughout, and allows managers to approve expenses and timesheets.
+Addiitonally this mofule can automatically prepare and send bills to clients based on rules around the billing cycle
+
+[WORKFORCE_MANAGEMENT]
+Similar to human resoure but is designed for companies with more hourly than salaried employees. It can monitor workers' attendance and hours and measure things like employee productivity and absenteeism.
+
+[HUMAN_RESOURCES_MANAGEMENT]
+This module has detailed records on all employees and stores documents like performance reviews, job descriptions and offer letters.
+It tracks not only hours worked but also paid time off(PTO)/sick days and benefits information.
+
+[ECOMMERCE]
+Certain ERP vendors offer an ecommerce module for businesses that want to sell online. 
+This module allows companies to quickly launch a B2B or B2C eccomerce website. 
+Leading ecommerce applications include user-friendly tools for employees to easily add items.
+
+[MARKETING_AUTOMATION]
+Like with ecommerce, cetrain software providers have developed a marketing automation module. 
+A marketing module manages marketing campaings across digital channels like email, web, social media and SMS.
+Can have advanced customer segmentation features, so customers only receive relevant messages.
+
+

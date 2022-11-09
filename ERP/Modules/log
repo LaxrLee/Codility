@@ -1,0 +1,26 @@
+[finance] [procurement] [manufacturing] [inventory_management] [order_management] [order_management] [warehouse_management]
+[supply_chain_management] [customer_relationship_management] [project_service_resource_management] [workforce_management]
+[human_resources_management] [ecommerce] [marketing_automation]
+
+
+[FINANCE]
+This is the most important ERP module because it allows businesses to understand their current financial state and future outlook.
+Tracking acounts payable(AP) and accounts receivable(AR) and manaing the general ledger.
+Financial documents like balance sheets, payment receipts and tax statements
+Automate tasks such as billing, vendor payments, cash management and account reconcilliation, helping accounintg department close the books in a timely manner and comply with current revenue recognition standardds.
+Financial planning and analysis employees need to prepare key reportsm including profit and loss (P & L) statements and board reports, and run scenario plans.
+
+
+[PROCUREMENT]
+Also known as purchasing module
+Helps organisations secure the materials or products it needs to manufacture and/or sell goods. Companies keep a list of approved vendors in this module and tie those suppliers to certain items, helping with supplier relationship management
+This process can automate request for a quote, then track and analyze the quotes that come in.
+
+Once a company accepts a quote, the procurement module helps the purchasing department prepare and send out puchase orders. It can then track that purchase order as the seller turns it into a sales order ans ships the goods, automatically updating inventory levels once the order arrives
+
+[MANUFACTURING]
+Production or manufacturing execution systems. The manufacturing module helps manufacturers plan production and make sure they have everything they need for planned production runs, like raw materials and machinery capacity. 
+During the manufacturing process, it can update the status of goods-in-progress and help companies track actual output against forecasted production. It also provides a real-time picture of the shop floor, capturing information on items in progress and finished goods. It can calculate the average time to produce an item and then compare supply with forcasted demand to plan adequate production
+
+[INVENTORY_MANAGEMENT]
+Enables inventory control by tracking item quantities and location fdown to individual SKUs[stock_keeping_units]

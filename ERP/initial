@@ -30,3 +30,42 @@ Before you begin your company should answer two questions:
     2. Does your company host the expertise required to develop ERP, or is it better to outsource
 
 Consult major company stakeholders and IT experts when drafting goals and requirements for enterprise resource planning system. This will ensure you set realistic, achievable expectations.
+
+Desiging an ERP for a large organization with multiple departments should involve representatives of every department in planning.
+
+Start wireframing
+Now, you must decide on  the type of system you want to implement.
+    1. Web-based ERP software (where a system runs locally on a network of computers)
+    2. Client/server ERP (where a system runs locally on a network of computers)
+Plan development step by step.  
+    Define modules: state the modules it should have. Thes models could be a combination of CRM, finance management, supply chain management, or any resource management areas based on your requirements.
+    Resources needed: determine the size of the team working on the project and the resources that team will require
+    Timeframe: although you might not yet be able to come up with concrete milestones or deadlines, try to establish a timeframe for a project
+
+Choose the right technology
+A web-based ERP app needs ther right toolkit
+    Hosting: in cloud or a local server. Cloud is considered more secure and doesn't require constant in-house maintenance.
+    Programming language: Javascript framewworks for frontend and node.js for backend.
+    Database: a reliable db for storing company data. Usually the choice is between relational and non-relational dbs. This choice will determine how your system organizes and uses data.
+    Relational Dbs are better suited for smaller companies that have a demand for standardization.
+    NoSQL or non-relaitonal dbs likely fit complex data infrastructures because they allow data storage in various easily manageable formats like JSON files
+
+Integrate a web-based ERP with existing infrastructure
+    Before starting any progress on the project, hand over or consolidate legacy apps and databases to the ERP software development company(if you outsource) or your in-house developers
+
+Test ERP implementation
+Once you've transferred all of your company's business knowledge to a single resource planning system, it's time to start testing.
+1. Review whether the system matches initial security, integration, and functionality requirements.
+2. Test the ERP's functionality by performing accounting or sales operations accross different modules. Calculate the accuracy of the results that the system returns
+3. Employ focus groups to test dedicated modules and module sets. E.G the HR department will likely work with some combination of modules designed around payroll recording, human capital management, and personnel records. To test how these modules work together, ask a few people fromthe target department to use the modules and collect feedback.
+4. Run security testing. Integrate dynamic security testing with Web Application Firewalls (WAFs). This will allow you to track and respond to vulnerabilities as they emerge.
+
+COST
+$15,000 to millions.
+Planning the budget, the cost of ERP development is typically determined based on the number of departments that will use the system and the functionalities the system will deliver.
+
+1. Determine the number of users.
+2. Decide what you (really) need. - the more features the more the price.
+3. Break down the cost - have a detailed summary of the proposal cost distribution. 
+
+To keep your ERP alive and functioning longterm

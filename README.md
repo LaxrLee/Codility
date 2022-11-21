@@ -1,1 +1,3 @@
-Initial
+Initial - full info 
+
+Loop 
